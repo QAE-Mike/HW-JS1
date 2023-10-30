@@ -1,0 +1,25 @@
+body {
+    background: #555;
+}
+#gameMap {
+    border: 3px solid white;
+    height: 72px;
+    margin-bottom: 5px;
+}
+#gameMap .robot{
+    width: 72px;
+    height: 72px;
+    background-image: url(icons/robot-icon.png);
+    display: inline-block;
+}
+
+#gameMap .wrench {
+    width: 72px;
+    height: 72px;
+    background-image: url(icons/Wrench-3d-icon.png);
+    display: inline-block;
+}
+
+.controls {
+    text-align: center;
+}

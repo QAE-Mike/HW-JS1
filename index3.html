@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ROBO WALK | GAME v1</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+
+    <div id="gameMap">
+
+</div>
+
+      <div class="controls">      
+                   
+        <button 
+            onclick="
+                if (robotLeft / STEP > innerWidth - STEP / 3){
+                robotLeft--
+            }
+            
+        // console.log(robotLeft)
+        render()
+        "> ◄ 
+    </button>
+    
+        <button 
+        onclick="
+            if (robotRight * STEP < innerWidth - STEP * 3){
+                robotRight++
+            }
+
+        // console.log(robotRight)
+        render()
+        "> ► 
+    </button>
+
+
+    </div>
+
+    <script src="game.js"></script>
+    <script src="game2.js"></script>
+
+</body>
+
+</html>
